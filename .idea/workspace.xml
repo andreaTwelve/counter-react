@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63383966-343a-40e8-a6c8-d08ae87af8c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Counter/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CounterGroup/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CounterGroup/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CounterGroup/index.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,10 +20,12 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/CounterGroup" />
+    <property name="js.last.introduce.type" value="CONST" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/InputNumber" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\task\react\counter-react\src\components\InputNumber" />
       <recent name="D:\task\react\counter-react\src\components\CounterGroup" />
     </key>
   </component>
@@ -53,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596430903136</updated>
       <workItem from="1596430904286" duration="2633000" />
-      <workItem from="1596434761558" duration="4189000" />
+      <workItem from="1596434761558" duration="9760000" />
     </task>
     <servers />
   </component>

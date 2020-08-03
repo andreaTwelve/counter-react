@@ -4,7 +4,7 @@ import CounterGroup from "./components/CounterGroup";
 
 function App() {
   return (
-    <CounterGroup/>
+      <CounterGroup/>
   );
 }
 
