@@ -4,10 +4,11 @@ class CounterGroup extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            count: 0
+            count: 0,
+            total: 0
         }
     }
-    inputChange(event) {
+    inputChange = (event) => {
         let value = event.target.value;
         if (value !== '') {
             this.setState({
@@ -18,13 +19,30 @@ class CounterGroup extends Component {
                 count: 1
             })
         }
-    }
+    };
+    handleIncrement = () => {
+        this.setState({
+            total: this.state.total + 1
+        })
+    };
+
+    handleDecrement = () =>{
+        this.setState({
+            total: this.state.total - 1
+        })
+    };
     render() {
         return (
             <div>
-                <label>counters of number</label>
-                <input value={ this.state.count } onChange={ event => this.inputChange(event) }/>
-                { new Array(this.state.count).fill(0).map((value, index) => <Counter key = {index}/>) }
+                <p>
+                    <label>number of counters</label>
+                    <input value={ this.state.count } onChange = { this.inputChange }/>
+                </p>
+                <p>
+                    <label>total</label>
+                    <input value = { this.state.total } readOnly/>
+                </p>
+                { new Array(this.state.count).fill(0).map((value, index) => <Counter key = {index} increment = {this.handleIncrement} decrement = {this.handleDecrement}/>) }
             </div>
         )
     }

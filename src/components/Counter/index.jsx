@@ -7,10 +7,12 @@ class Counter extends Component {
         }
     }
     increment = () => {
-        this.setState({ number: this.state.number + 1 })
+        this.setState({ number: this.state.number + 1 });
+        this.props['increment']()
     };
     decrement = () => {
-        this.setState({ number: this.state.number - 1 })
+        this.setState({ number: this.state.number - 1 });
+        this.props['decrement']()
     };
     render() {
         return (
