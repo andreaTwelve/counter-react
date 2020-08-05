@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63383966-343a-40e8-a6c8-d08ae87af8c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/actions/action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/CountGroupContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Counter/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Counter/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CounterGroup/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CounterGroup/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +30,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/InputNumber" />
+    <property name="ts.external.directory.path" value="D:\webstorm\WebStorm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\task\react\counter-react\src\redux" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\task\react\counter-react\src\components\InputNumber" />
       <recent name="D:\task\react\counter-react\src\components\CounterGroup" />
@@ -52,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596430903136</updated>
       <workItem from="1596430904286" duration="2633000" />
-      <workItem from="1596434761558" duration="13892000" />
+      <workItem from="1596434761558" duration="39212000" />
     </task>
     <servers />
   </component>
