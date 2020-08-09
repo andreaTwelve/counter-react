@@ -1,23 +1,18 @@
-import {INCREMENT, DECREMENT, TOTALINCREMENT} from "../actions/action";
+import {INCREMENT, DECREMENT, TOTALINCREMENT, CLEARZERO} from "../actions/action";
 import { combineReducers } from "redux";
-const initialState = {
-    number: 0
-};
 
 const initialGroupState = {
     numberOfCounters: 0,
     total: 0
 };
-function counter(state = initialState, action) {
+function counter(state = 0, action) {
     switch (action.type) {
         case INCREMENT:
-            return {
-                number: state.number + 1
-            };
+            return state + 1;
         case DECREMENT:
-            return {
-                number: state.number - 1
-            };
+            return state - 1;
+        case CLEARZERO:
+            return state - action.count;
         default:
             return state
     }

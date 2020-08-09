@@ -1,13 +1,12 @@
-import { increment, decrement, totalIncrement } from "../actions/action";
+import { increment, decrement, totalIncrement, clearZero } from "../actions/action";
 import { connect } from "react-redux";
 import CounterGroup from "../components/CounterGroup";
 
 const mapStateToProps = state => {
-    console.log(state.calculateTotal.numberOfCounters);
     return {
-        number: state.counter.number,
         numberOfCounters: state.calculateTotal.numberOfCounters,
-        total: state.calculateTotal.total
+        total: state.calculateTotal.total,
+        state: state.counter
     }
 };
 
@@ -15,7 +14,8 @@ const mapDispatchToProps = dispatch => {
     return {
         increment: () => dispatch(increment()),
         decrement: () => dispatch(decrement()),
-        handleIncrement: () => dispatch(totalIncrement())
+        handleIncrement: () => dispatch(totalIncrement()),
+        clearZero: count => dispatch(clearZero(count))
     }
 };
 
